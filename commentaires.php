@@ -103,6 +103,8 @@ for ($i=1; $i <= $nbre_pages; $i++) {
 else
 {
 	echo "Ce billet n'existe pas!";
+	//à supprimer
+	echo crypt('kangourou');
 }
 ?>
     </body>
