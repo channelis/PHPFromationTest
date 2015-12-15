@@ -11,7 +11,7 @@
         <h1>Ma page d'inscription</h1>
         
  
-<form action= "controleur/tp_mvc/insert_membre.php" methode = "post">
+    <form action="controleur/tp_mvc/insert_membre.php" method="post">
 
         <label for="pseudo">Pseudo :</label><input type="text" name="pseudo" /><br />
         <label for="motdepasse">Mot de passe :</label><input type="password" name="motdepasse" /><br />
@@ -20,7 +20,6 @@
         <input type="submit" value="Valider">
 
 </form>
-
 
 </body>
 </html>
